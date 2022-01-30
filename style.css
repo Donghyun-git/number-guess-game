@@ -1,0 +1,115 @@
+#header { }
+#content {}
+
+.container { margin: 0 auto; text-align: center; width: 700px;  }
+
+.header-tit {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    height: 100px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 50px;
+  }
+.header-tit h1 { display: block; }
+
+.contents {
+  font-weight: 600;
+  color: #fff;
+  height: 450px;
+  border: 1px solid #dbdbdb;
+  border-radius: 10%;
+  margin: 0 auto;
+  background:url(dangmu2.jpg) no-repeat;
+  background-size: 700px 450px;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 50px;
+}
+
+#chance-area { font-size: 30px; margin-top: 50px; padding-bottom: 30px; }
+#result-area { font-size: 20px; margin-top: 10px; padding-bottom: 50px;}
+#user-input {  width: 150px; height: 50px; font-size: 30px; border-radius: 10%; text-align: center;}
+
+.cont-bottom {
+    margin-top: 60px;
+}
+
+#play-button {
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 30px; margin-right: 25px;
+    border-radius: 20%;
+    background: #52faff;
+    box-shadow:
+    2px 2px 5px 0 #181c1f;
+  }
+
+#play-button:hover {
+    background-color: #188a9d;
+    color: #fff;
+}
+
+#play-button:active {
+    box-shadow: none;
+}
+
+#reset-button {
+    font-size: 30px;
+    padding: 5px 8px;
+    border-radius: 20%;
+    background: #52faff;
+    box-shadow:
+    2px 2px 5px 0 #181c1f;
+  }
+
+#reset-button:hover {
+    background-color: #188a9d;
+    color: #fff;
+
+}
+
+#reset-button:active {
+    box-shadow: none;
+}
+
+.footer { font-size: 13px; height: 100px; margin-top: 20px;}
+.footer address { padding-top: 8%;}
+
+@media (max-width: 1220px) {
+
+}
+/* 화면 너비 0~ 1024px */
+@media (max-width: 1024px) {
+
+
+}
+
+/* 화면 너비 0~ 960px */
+@media (max-width: 960px) {
+
+
+}
+
+/* 화면 너비 0~ 768px */
+@media (max-width: 768px) {
+  .container {width: 95%;}
+  .header-tit { margin-top: 10px; height: 75px;}
+  .contents { margin-top: 20px; background-size: cover;}
+  .footer { margin-top: -20px;}
+}
+
+/* 화면 너비 0~ 600px */
+@media (max-width: 600px) {
+
+}
+
+/* 화면 너비 0~ 480px */
+@media (max-width: 480px) {
+
+}
+
+/* 화면 너비 0~ 320px */
+@media (max-width: 320px) {
+
+}
